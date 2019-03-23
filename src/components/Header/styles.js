@@ -10,6 +10,7 @@ export const Container = styled.header`
 	justify-content: space-evenly;
 	position: fixed;
 	z-index: 99;
+	border-bottom: 1px solid ${accent};
 `;
 
 export const Logo = styled.div`

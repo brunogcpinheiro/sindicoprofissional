@@ -32,7 +32,7 @@ export const AboutSection = styled.div`
 		&:before {
 			content: "";
 			display: block;
-			width: 10%;
+			width: 50px;
 			padding-top: -20px;
 			border-top: 3px solid ${accent};
 			margin-bottom: 20px;
