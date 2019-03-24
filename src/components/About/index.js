@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import Link from "next/link";
 
 import {
 	Container,
@@ -11,7 +12,7 @@ import {
 const About = () => {
 	return (
 		<Fragment>
-			<Container>
+			<Container id="about">
 				<AboutContent>
 					<AboutSection>
 						<h2>
@@ -27,6 +28,9 @@ const About = () => {
 							correção, transparência e honestidade naquilo que diuturnamente se
 							propôs a oferecer e executar.
 						</p>
+						<Link href="/a-gcp-brasil">
+							<a>Mais sobre a GCP Brasil</a>
+						</Link>
 					</AboutSection>
 				</AboutContent>
 				<AboutImage>

@@ -6,14 +6,18 @@ const Header = () => {
 		<Fragment>
 			<Container>
 				<Logo>
-					<h4>GCP BRASIL</h4>
-					<p>Consultoria</p>
+					<img src="/static/logomarca.png" alt="Logomarca" />
 				</Logo>
 				<Menu>
 					<List>
 						<li>Home</li>
-						<li>Quem Somos</li>
-						<li>Cursos</li>
+						<li>A GCP Brasil</li>
+						<li>Especialidades</li>
+						<li>Certificados</li>
+						<li>Facility</li>
+						<li>Sustentabilidade</li>
+						<li>Manutenção</li>
+						<li>Investimentos</li>
 						<li>Contato</li>
 					</List>
 				</Menu>

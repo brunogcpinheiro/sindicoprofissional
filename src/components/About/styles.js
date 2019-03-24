@@ -2,10 +2,10 @@ import styled from "styled-components";
 import { accent } from "../../utils/colors";
 
 export const Container = styled.section`
-	width: 100%;
-	height: 600px;
+	height: 100%;
 	display: flex;
 	align-items: center;
+	margin: 50px;
 `;
 
 export const AboutContent = styled.div`
@@ -26,7 +26,7 @@ export const AboutSection = styled.div`
 	h2 {
 		text-transform: uppercase;
 		font-size: 3rem;
-		margin: 90px 0 0 20px;
+		margin: 20px 0 0 20px;
 		line-height: 50px;
 
 		&:before {
@@ -44,6 +44,28 @@ export const AboutSection = styled.div`
 		line-height: 30px;
 		font-size: 0.95rem;
 	}
+
+	a {
+		margin: 50px 20px 0 20px;
+		border: none;
+		padding: 16px 24px;
+		background: #000;
+		color: #fff;
+		font-size: 0.8rem;
+		text-transform: uppercase;
+		letter-spacing: 0.2rem;
+		font-weight: 700;
+		border: 3px solid #000;
+		transition: all 0.4s ease-in-out;
+
+		&:hover {
+			background: transparent;
+			color: ${accent};
+			border: 3px solid ${accent};
+			transition: all 0.4s ease-in-out;
+			font-weight: 700;
+		}
+	}
 `;
 
 export const AboutImage = styled.div`
@@ -56,6 +78,7 @@ export const AboutImage = styled.div`
 
 export const AboutImageSection = styled.div`
 	width: 50%;
-	margin-left: 20px;
+	margin: 0 0 -100px 0;
+	padding: 40px;
 	align-self: flex-end;
 `;

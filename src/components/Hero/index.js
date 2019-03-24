@@ -9,7 +9,7 @@ const Hero = () => {
 				<img src="/static/slide5.jpg" alt="Hero" />
 				<h3>Tudo que você precisa para ter</h3>
 				<h1>Sucesso</h1>
-				<button>Saiba mais</button>
+				<a href="#about">Saiba mais</a>
 			</HeroImage>
 		</Fragment>
 	);

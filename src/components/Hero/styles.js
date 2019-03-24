@@ -20,7 +20,7 @@ export const HeroImage = styled.div`
 
 	h3,
 	h1,
-	button {
+	a {
 		position: absolute;
 	}
 
@@ -38,7 +38,7 @@ export const HeroImage = styled.div`
 		letter-spacing: 0.8rem;
 	}
 
-	button {
+	a {
 		margin-top: 150px;
 		border: none;
 		padding: 16px 24px;
@@ -53,7 +53,7 @@ export const HeroImage = styled.div`
 
 		&:hover {
 			background: transparent;
-			color: #000;
+			color: ${accent};
 			border: 3px solid ${accent};
 			transition: all 0.4s ease-in-out;
 			font-weight: 700;

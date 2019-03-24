@@ -7,6 +7,10 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     font-family: 'Questrial', cursive, sans-serif;
     height: 100%;
@@ -21,6 +25,10 @@ const GlobalStyles = createGlobalStyle`
 
   button, a {
     cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
   }
 `;
 

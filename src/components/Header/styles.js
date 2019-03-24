@@ -19,23 +19,20 @@ export const Logo = styled.div`
 	align-items: center;
 	margin: 50px;
 
-	h4 {
-		letter-spacing: 0.3rem;
-	}
-
-	p {
-		letter-spacing: 0.2rem;
+	img {
+		width: 160px;
+		height: 90px;
 	}
 `;
 
-export const Menu = styled.nav`margin: 50px;`;
+export const Menu = styled.nav`margin: 0;`;
 
 export const List = styled.ul`
 	list-style: none;
 	display: flex;
 
 	li {
-		margin: 20px;
+		margin: 15px;
 		cursor: pointer;
 		font-weight: 700;
 		transition: color 0.4s ease;
