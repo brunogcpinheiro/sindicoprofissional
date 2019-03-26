@@ -17,7 +17,7 @@ export const AboutContent = styled.div`
 `;
 
 export const AboutSection = styled.div`
-	width: 50%;
+	width: 55%;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
@@ -78,7 +78,7 @@ export const AboutImage = styled.div`
 
 export const AboutImageSection = styled.div`
 	width: 50%;
-	margin: 0 0 -100px 0;
+	margin: 0 0 -92px 0;
 	padding: 40px;
 	align-self: flex-end;
 `;
