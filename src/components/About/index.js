@@ -22,11 +22,15 @@ const About = () => {
 							Fundada no Distrito Federal em 11 de Agosto de 2004, com a
 							finalidade de ser reconhecida - comercial e tecnicamente - nas
 							atividades de Gestão, Consultoria, Planejamento e Assessoria
-							Condominial, a empresa GCPBrasil tem como foco principal o
-							atendimento de qualidade aos seus clientes, aliado a agilidade, a
-							capacitação permanente dos seus Colaboradores, a cordialidade, a
-							correção, transparência e honestidade naquilo que diuturnamente se
-							propôs a oferecer e executar.
+							Condominial, a empresa{" "}
+							<strong>
+								<em>GCPBrasil</em>
+							</strong>{" "}
+							tem como foco principal o atendimento de qualidade aos seus
+							clientes, aliado a agilidade, a capacitação permanente dos seus
+							Colaboradores, a cordialidade, a correção, transparência e
+							honestidade naquilo que diuturnamente se propôs a oferecer e
+							executar.
 						</p>
 						<Link href="/a-gcp-brasil">
 							<a>Mais sobre a GCP Brasil</a>
