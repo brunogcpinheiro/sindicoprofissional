@@ -6,6 +6,7 @@ export const Container = styled.section`
 	margin: 0 auto;
 	width: 100%;
 	height: 100%;
+	padding-bottom: 70px;
 	display: flex;
 	justify-content: center;
 	background: #fff;
@@ -33,7 +34,7 @@ export const CourseSection = styled.div`
 
 export const Card = styled.div`
 	width: 100%;
-	padding: 25px;
+	padding: 50px;
 	border: 1px solid #f5f5f5;
 	margin: 20px 0 0 0;
 	-webkit-box-shadow: ${shadow};
