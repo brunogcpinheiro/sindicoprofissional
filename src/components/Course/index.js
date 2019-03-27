@@ -1,5 +1,8 @@
 import React, { Fragment } from "react";
-import { Container, CourseSection, Card } from "./styles";
+import Link from "next/link";
+import { Container, CourseSection, Card, Images } from "./styles";
+import { TiStarFullOutline } from "react-icons/ti";
+import { accent } from "../../utils/colors";
 import Gallery from "react-photo-gallery";
 
 const column1 = [
@@ -9,53 +12,9 @@ const column1 = [
 		height: 2,
 	},
 	{
-		src: "/static/curso2.jpg",
+		src: "/static/slide3.jpg",
 		width: 3,
 		height: 2,
-	},
-];
-
-const column2 = [
-	{
-		src: "/static/curso4.jpg",
-		width: 3,
-		height: 2,
-	},
-	{
-		src: "/static/curso5.jpg",
-		width: 3,
-		height: 2,
-	},
-	{
-		src: "/static/curso3.jpg",
-		width: 3,
-		height: 2,
-	},
-];
-
-const column3 = [
-	{
-		src: "/static/venancio.jpg",
-		width: 4,
-		height: 5,
-	},
-	{
-		src: "/static/servicos.jpg",
-		width: 4,
-		height: 5,
-	},
-];
-
-const column4 = [
-	{
-		src: "/static/servicos1.jpg",
-		width: 4,
-		height: 5,
-	},
-	{
-		src: "/static/servicos2.jpg",
-		width: 4,
-		height: 5,
 	},
 ];
 
@@ -63,30 +22,45 @@ const Course = () => {
 	return (
 		<Fragment>
 			<Container>
-				<CourseSection>
-					<h2>
-						Gestão de <br />Condomínios
-					</h2>
-					<p>Um síndico profissional com uma visão preventiva.</p>
-					<Card>
-						<Gallery photos={column1} margin={5} columns={2} />
-						<Gallery photos={column2} margin={5} columns={3} />
-					</Card>
-				</CourseSection>
-			</Container>
-			<Container>
-				<CourseSection>
-					<h2>
-						Experiências em Empreendimentos <br />Sustentáveis
-					</h2>
-					<div className="license">
-						<img id="licenca" src="/static/licenca.jpg" alt="Licença" />
-					</div>
-					<Card>
-						<Gallery photos={column3} margin={5} columns={2} />
-						<Gallery photos={column4} margin={5} columns={2} />
-					</Card>
-				</CourseSection>
+				<div className="container">
+					<CourseSection>
+						<h2>
+							Curso <br />Em Destaque
+						</h2>
+						<Card>
+							<h5>Curso Síndico Profissional</h5>
+							<div className="stars">
+								<TiStarFullOutline style={{ color: accent }} />
+								<TiStarFullOutline style={{ color: accent }} />
+								<TiStarFullOutline style={{ color: accent }} />
+								<TiStarFullOutline style={{ color: accent }} />
+								<TiStarFullOutline style={{ color: accent }} />
+							</div>
+							<br />
+							<Gallery photos={column1} margin={10} columns={2} />
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+								Possimus qui sapiente libero blanditiis eius quidem officia
+								veritatis laudantium facere eum exercitationem corrupti
+								delectus, maxime unde, quae quas atque rerum modi. Lorem ipsum
+								dolor sit amet, consectetur adipisicing elit. Possimus qui
+								sapiente libero blanditiis eius quidem officia veritatis
+								laudantium facere eum exercitationem corrupti delectus, maxime
+								unde, quae quas atque rerum modi. Lorem ipsum dolor sit amet,
+								consectetur adipisicing elit. Possimus qui sapiente libero
+								blanditiis eius quidem officia veritatis laudantium facere eum
+								exercitationem corrupti delectus, maxime unde, quae quas atque
+								rerum modi. Lorem ipsum dolor sit amet, consectetur adipisicing
+								elit. Possimus qui sapiente libero blanditiis eius quidem
+								officia veritatis laudantium facere eum exercitationem corrupti
+								delectus, maxime unde, quae quas atque rerum modi.
+							</p>
+							<Link href="/cursos">
+								<a>Mais informações</a>
+							</Link>
+						</Card>
+					</CourseSection>
+				</div>
 			</Container>
 		</Fragment>
 	);

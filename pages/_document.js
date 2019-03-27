@@ -20,6 +20,10 @@ export default class MyDocument extends Document {
 					href="https://fonts.googleapis.com/css?family=Lato|Questrial|Paytone+One:300,400,700"
 					rel="stylesheet"
 				/>
+				<link
+					rel="stylesheet"
+					href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+				/>
 				<body>
 					<Main />
 					<NextScript />

@@ -5,7 +5,8 @@ export const Container = styled.section`
 	height: 100%;
 	display: flex;
 	align-items: center;
-	margin: 50px;
+	justify-content: center;
+	margin: 50px auto;
 `;
 
 export const AboutContent = styled.div`
@@ -17,11 +18,10 @@ export const AboutContent = styled.div`
 `;
 
 export const AboutSection = styled.div`
-	width: 55%;
+	width: 100%;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
-	margin-right: 20px;
 
 	h2 {
 		text-transform: uppercase;
@@ -77,8 +77,14 @@ export const AboutImage = styled.div`
 `;
 
 export const AboutImageSection = styled.div`
-	width: 50%;
+	width: 100%;
 	margin: 0 0 -92px 0;
 	padding: 40px;
 	align-self: flex-end;
+
+	@media (max-width: 1200px) {
+		img {
+			align-self: flex-end;
+		}
+	}
 `;

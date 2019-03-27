@@ -1,8 +1,8 @@
 import React from "react";
 import Main from "../layouts/main";
-import Hero from "../src/components/Hero";
 import About from "../src/components/About";
 import Course from "../src/components/Course";
+import Hero from "../src/components/Hero";
 
 const Index = () => {
 	return (

@@ -3,7 +3,6 @@ import { accent } from "../../utils/colors";
 import { shadow } from "../../utils/shadow";
 
 export const Container = styled.section`
-	margin: 0 auto;
 	width: 100%;
 	height: 100%;
 	display: flex;
@@ -11,8 +10,8 @@ export const Container = styled.section`
 	background: #fff;
 `;
 
-export const CourseSection = styled.div`
-	width: 100%;
+export const SpecialitiesSection = styled.div`
+	width: 45%;
 
 	h2 {
 		text-transform: uppercase;
@@ -29,38 +28,30 @@ export const CourseSection = styled.div`
 			margin-bottom: 20px;
 		}
 	}
+
+	p {
+		margin-top: 20px;
+		font-size: 1.2rem;
+	}
+
+	.license {
+		width: 100%;
+		display: flex;
+		align-items: center;
+
+		#licenca {
+			width: 150px;
+			height: 150px;
+			margin: 0 auto;
+		}
+	}
 `;
 
 export const Card = styled.div`
 	width: 100%;
-	padding: 25px;
 	border: 1px solid #f5f5f5;
-	margin: 20px 0 0 0;
+	margin-top: 20px;
 	-webkit-box-shadow: ${shadow};
 	-moz-box-shadow: ${shadow};
 	box-shadow: ${shadow};
-
-	p {
-		margin-bottom: 50px;
-	}
-
-	a {
-		padding: 16px 24px;
-		background: #000;
-		color: #fff;
-		font-size: 0.8rem;
-		text-transform: uppercase;
-		letter-spacing: 0.2rem;
-		font-weight: 700;
-		border: 3px solid #000;
-		transition: all 0.4s ease-in-out;
-
-		&:hover {
-			background: transparent;
-			color: ${accent};
-			border: 3px solid ${accent};
-			transition: all 0.4s ease-in-out;
-			font-weight: 700;
-		}
-	}
 `;

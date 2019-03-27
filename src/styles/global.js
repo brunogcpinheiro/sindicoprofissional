@@ -25,9 +25,10 @@ const GlobalStyles = createGlobalStyle`
 
   button, a {
     cursor: pointer;
+    text-decoration: none;
   }
 
-  a {
+  button, a:hover {
     text-decoration: none;
   }
 `;
