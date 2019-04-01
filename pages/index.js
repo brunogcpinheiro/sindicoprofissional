@@ -1,16 +1,22 @@
-import React from "react";
+import React, { Fragment } from "react";
+import Head from "next/head";
 import Main from "../layouts/main";
 import About from "../src/components/About";
-import Course from "../src/components/Course";
+import CourseSection from "../src/components/CourseSection";
 import Hero from "../src/components/Hero";
 
 const Index = () => {
 	return (
-		<Main>
-			<Hero />
-			<About />
-			<Course />
-		</Main>
+		<Fragment>
+			<Head>
+				<title>GCP Brasil</title>
+			</Head>
+			<Main>
+				<Hero />
+				<About />
+				<CourseSection />
+			</Main>
+		</Fragment>
 	);
 };
 

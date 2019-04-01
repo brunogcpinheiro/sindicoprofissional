@@ -13,8 +13,6 @@ const GlobalStyles = createGlobalStyle`
 
   body {
     font-family: 'Questrial', cursive, sans-serif;
-    height: 100%;
-    width: 100%;
     background: #f5f5f5;
     outline: none;
   }
@@ -30,6 +28,28 @@ const GlobalStyles = createGlobalStyle`
 
   button, a:hover {
     text-decoration: none;
+  }
+
+  .bg-wrapper {
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  .bg-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .bg-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 `;
 

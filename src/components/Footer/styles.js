@@ -11,6 +11,8 @@ export const Container = styled.footer`
 `;
 
 export const Contact = styled.div`
+	margin: 0 auto;
+
 	h5 {
 		text-transform: uppercase;
 		letter-spacing: 0.25rem;
@@ -30,7 +32,7 @@ export const Contact = styled.div`
 export const Form = styled.form`
 	display: flex;
 	flex-direction: column;
-	padding: 20px;
+	margin: 0 auto;
 `;
 
 export const Inputs = styled.div`
@@ -42,7 +44,7 @@ export const Inputs = styled.div`
 
 	label {
 		font-weight: bold;
-		margin: 0 10px 0 0;
+		margin: 0 5px 0 0;
 	}
 
 	input,
