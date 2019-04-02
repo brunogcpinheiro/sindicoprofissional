@@ -22,6 +22,7 @@ export const AboutSection = styled.div`
 	height: 100%;
 	display: flex;
 	flex-direction: column;
+	margin-left: 40px;
 
 	h2 {
 		text-transform: uppercase;

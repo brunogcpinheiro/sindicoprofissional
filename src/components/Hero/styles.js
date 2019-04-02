@@ -69,17 +69,32 @@ export const HeroImage = styled.div`
 		}
 
 		h1 {
-			font-size: 5rem;
+			font-size: 4rem;
+			margin-top: 40px;
 		}
 
 		h3 {
 			font-size: 1.1rem;
+			margin-top: -10px;
+		}
+		
+		a {
+			margin-top: 120px;
 		}
 	}
 
 	@media (max-width: 535px) {
 		h1 {
 			font-size: 3rem;
+			margin-top: 50px;
+		}
+		
+		h3 {
+			margin-top: -10px;
+		}
+		
+		a {
+			margin-top: 120px;
 		}
 	}
 `;

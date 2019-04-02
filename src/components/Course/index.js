@@ -1,46 +1,18 @@
 import React, { Fragment } from "react";
-import { Container, Red, Blue, Orange } from "./styles";
+import { Container } from "./styles";
+import { Wrapper, Row, Column } from "../Grid";
 
 const Course = () => {
 	return (
 		<Fragment>
 			<Container>
-				<div className="bg-wrapper">
-					<div className="bg-row">
-						<div className="bg-column">
-							<Red>
-								<h1>Ola</h1>
-							</Red>
-						</div>
-						<div className="bg-column">
-							<Blue>
-								<h1>Ola</h1>
-							</Blue>
-						</div>
-						<div className="bg-column">
-							<Orange>
-								<h1>Ola</h1>
-							</Orange>
-						</div>
-					</div>
-					<div className="bg-row">
-						<div className="bg-column">
-							<Red>
-								<h1>Ola</h1>
-							</Red>
-						</div>
-						<div className="bg-column">
-							<Blue>
-								<h1>Ola</h1>
-							</Blue>
-						</div>
-						<div className="bg-column">
-							<Orange>
-								<h1>Ola</h1>
-							</Orange>
-						</div>
-					</div>
-				</div>
+				<Wrapper>
+					<Row>
+						<Column centered mobile="12" tablet="12" desktop="12">
+							<div>ola</div>
+						</Column>
+					</Row>
+				</Wrapper>
 			</Container>
 		</Fragment>
 	);
