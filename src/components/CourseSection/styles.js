@@ -10,6 +10,8 @@ export const Container = styled.section`
 	display: flex;
 	justify-content: center;
 	background: #fff;
+	padding-left: 15px;
+	padding-right: 15px;
 `;
 
 export const CourseSectionWrapper = styled.div`

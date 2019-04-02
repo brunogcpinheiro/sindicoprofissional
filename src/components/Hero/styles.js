@@ -94,7 +94,7 @@ export const HeroImage = styled.div`
 		}
 		
 		a {
-			margin-top: 120px;
+			margin-top: 150px;
 		}
 	}
 `;

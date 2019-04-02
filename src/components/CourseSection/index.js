@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import Link from "next/link";
 import { Container, CourseSectionWrapper, Card } from "./styles";
+import { Wrapper } from '../Grid';
 import { TiStarFullOutline } from "react-icons/ti";
 import { accent } from "../../utils/colors";
 import Gallery from "react-photo-gallery";
@@ -22,7 +23,7 @@ const CourseSection = () => {
 	return (
 		<Fragment>
 			<Container>
-				<div className="container">
+				<Wrapper>
 					<CourseSectionWrapper>
 						<h2>
 							Curso <br />Em Destaque
@@ -60,7 +61,7 @@ const CourseSection = () => {
 							</Link>
 						</Card>
 					</CourseSectionWrapper>
-				</div>
+				</Wrapper>
 			</Container>
 		</Fragment>
 	);
