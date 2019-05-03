@@ -9,7 +9,7 @@ const Index = () => {
 	return (
 		<Fragment>
 			<Head>
-				<title>GCP Brasil</title>
+				<title>GCP Brasil | Home</title>
 			</Head>
 			<Main>
 				<Hero />

@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { accent } from '../utils/colors';
 
 const GlobalStyles = createGlobalStyle`
   * {
@@ -28,6 +29,10 @@ const GlobalStyles = createGlobalStyle`
 
   button, a:hover {
     text-decoration: none;
+  }
+  
+  .active {
+    color: ${accent};
   }
 `;
 

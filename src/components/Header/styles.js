@@ -61,7 +61,7 @@ export const DrawerList = styled.ul`
 `;
 
 export const Menu = styled.nav`
-	margin: 0;
+	margin-top: 20px;
 	
 	@media (max-width: 1200px) {
 		display: none;

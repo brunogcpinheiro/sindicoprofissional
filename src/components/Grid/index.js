@@ -2,10 +2,10 @@ import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.div`
     max-width: 1360px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
 
     &:before,
     &:after {
@@ -42,6 +42,7 @@ function getWidthGrid(value) {
 }
 
 export const Column = styled.div`
+    width: 100%;
     float: left;
     padding: .25rem;
     min-height: 1px;
