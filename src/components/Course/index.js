@@ -96,26 +96,6 @@ const Course = () => {
 									</div>
 								</Card>
 								
-								<Card>
-									<h3>Especialista</h3>
-									<p>Lorem Ipsum is simply dummy text of the printing 
-										and typesetting industry.
-									</p>
-									<ul>
-										<li>- Materia 1</li>
-										<li>- Materia 1</li>
-										<li>- Materia 1</li>
-										<li>- Materia 1</li>
-										<li>- Materia 1</li>
-									</ul>
-									<div>
-										<a href="/">
-											<TiShoppingCart 
-												style={{ fontSize: '1.5rem' }}
-											/> Comprar
-										</a>
-									</div>
-								</Card>
 							</Cards>
 						</Column>
 					</Row>
