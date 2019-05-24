@@ -24,22 +24,31 @@ export const AboutUsWrapper = styled.div`
 	}
 	
 	p {
-	    font-size: 1.2rem;
+	    font-size: 1.rem;
 	}
 `;
 
 export const Profile = styled.div`
     display: flex;
+    align-items: center;
+    justify-content: center;
 `;
 
 export const ProfileImage = styled.div`
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 `;
 
 export const ProfileData = styled.div`
-    padding: 0 20px;
+    padding: 0 0 0 50px;
     margin-left: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    
+    @media(max-width: 768px) {
+        padding: 0;
+        margin-top: 20px;
+    }
 `;
