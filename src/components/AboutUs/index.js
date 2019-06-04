@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { Container, AboutUsWrapper, Profile, ProfileImage, ProfileData } from "./styles";
 import { Wrapper, Row, Column } from "../Grid";
 
-const Course = () => {
+const AboutUs = () => {
 	return (
 		<Fragment>
 			<Container>
@@ -101,4 +101,4 @@ const Course = () => {
 	);
 };
 
-export default Course;
+export default AboutUs;

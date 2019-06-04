@@ -1,19 +1,19 @@
 import React, { Fragment } from "react";
 import Head from "next/head";
 import Main from "../layouts/main";
-import specialities from '../src/components/specialities';
+import Specialities from '../src/components/Specialities';
 
-const Curso = () => {
+const Especialidades = () => {
 	return (
 		<Fragment>
 			<Head>
 				<title>GCP Brasil | Especialidades</title>
 			</Head>
 			<Main>
-			    <specialities />
+			    <Specialities />
 			</Main>
 		</Fragment>
 	);
 };
 
-export default Curso;
+export default Especialidades;

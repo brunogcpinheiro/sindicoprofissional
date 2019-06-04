@@ -1,22 +1,19 @@
 import styled from "styled-components";
-import { accent } from "../../utils/colors";
-import { shadow } from "../../utils/shadow";
+import { accent } from '../../utils/colors';
 
-export const Container = styled.section`
-	width: 100%;
-	height: 100%;
-	display: flex;
-	justify-content: center;
+export const Container = styled.div`
+	padding-top: 100px;
 	background: #fff;
 `;
 
-export const SpecialitiesSection = styled.div`
-	width: 45%;
-
-	h2 {
+export const SpecialitiesWrapper = styled.div`
+	width: 100%;
+	max-width: 980px;
+	
+    h2 {
 		text-transform: uppercase;
-		margin-top: 120px;
-		font-size: 3rem;
+		margin: 70px 0 40px 0;
+		font-size: 2rem;
 		line-height: 60px;
 
 		&:before {
@@ -28,30 +25,21 @@ export const SpecialitiesSection = styled.div`
 			margin-bottom: 20px;
 		}
 	}
-
-	p {
-		margin-top: 20px;
-		font-size: 1.2rem;
-	}
-
-	.license {
-		width: 100%;
-		display: flex;
-		align-items: center;
-
-		#licenca {
-			width: 150px;
-			height: 150px;
-			margin: 0 auto;
-		}
-	}
 `;
 
-export const Card = styled.div`
-	width: 100%;
-	border: 1px solid #f5f5f5;
-	margin-top: 20px;
-	-webkit-box-shadow: ${shadow};
-	-moz-box-shadow: ${shadow};
-	box-shadow: ${shadow};
+export const Speciality = styled.div`
+	margin: 40px 0;
+	
+	h3 {
+		color: orange;
+		text-transform: uppercase;
+	}
+	
+	h4 {
+		margin: 20px 0 20px 20px;
+	}
+	
+	ul {
+		margin-left: 40px;
+	}
 `;
