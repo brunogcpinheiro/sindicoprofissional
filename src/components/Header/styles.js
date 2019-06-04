@@ -22,6 +22,7 @@ export const Logo = styled.div`
 	img {
 		width: 160px;
 		height: 90px;
+		cursor: pointer;
 	}
 `;
 
