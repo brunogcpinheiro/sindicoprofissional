@@ -10,7 +10,9 @@ const Header = () => {
 		<Fragment>
 			<Container>
 				<Logo>
-					<img src="/static/logomarca.png" alt="Logomarca" />
+					<Link href="/">
+						<img src="/static/logomarca.png" alt="Logomarca" />
+					</Link>
 				</Logo>
 				<Burger onClick={() => setOpen(true)}>
 					<div />
