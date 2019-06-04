@@ -33,10 +33,10 @@ const Header = () => {
 							<Link href="a-gcp-brasil">
 								<li>A GCP Brasil</li>
 							</Link>
-							<Link href="/curso">
+							<Link href="curso">
 								<li>Curso</li>
 							</Link>
-							<Link href="/especialidades">
+							<Link href="especialidades">
 								<li>Especialidades</li>
 							</Link>
 							<Link href="/">
